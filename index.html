@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annotori Labs | Managed data annotation for AI teams</title>
+  <meta name="description"
+    content="A dedicated, calibrated annotation team for computer vision and language data. One accountable contact and a documented QA process behind every batch." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ======= NAV ======= -->
+  <header class="nav" id="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo" aria-label="Annotori Labs home">
+        <img src="assets/icon_light.svg" alt="" aria-hidden="true" class="nav__logo-img" width="40" height="40" />
+        <span class="nav__wordmark" aria-hidden="true"><span>ANNOTORI</span><span class="nav__wordmark-labs">Labs</span></span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav__links" role="list">
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#process" class="nav__link">Process</a></li>
+          <li><a href="#quality" class="nav__link">Quality</a></li>
+          <li><a href="#pilot" class="nav__link">Pilot</a></li>
+        </ul>
+      </nav>
+      <a href="#pilot" class="btn btn--primary nav__cta">Start a pilot</a>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"
+        id="hamburger-btn">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobile-menu" hidden>
+      <ul role="list">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#process" class="nav__link">Process</a></li>
+        <li><a href="#quality" class="nav__link">Quality</a></li>
+        <li><a href="#pilot" class="nav__link">Pilot</a></li>
+      </ul>
+      <a href="#pilot" class="btn btn--primary">Start a pilot</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero section--navy" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Managed data annotation for AI teams</p>
+        <h1 id="hero-heading" class="reveal">Good AI starts with<br> better labels.</h1>
+        <p class="hero__subhead reveal">A dedicated, calibrated annotation team for computer vision and language data. One
+          accountable contact and a documented quality process behind every batch.</p>
+        <div class="hero__actions reveal reveal--slow">
+          <a href="#pilot" class="btn btn--primary" id="hero-cta-pilot">Start a paid pilot</a>
+          <a href="#process" class="btn btn--secondary" id="hero-cta-process">See how we work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= PROOF STRIP ======= -->
+    <section class="proof-strip section--deep-slate" aria-label="Key proof points">
+      <div class="container proof-strip__inner">
+        <article class="proof-strip__item">
+          <span class="proof-strip__number" aria-hidden="true" data-count-target="95" data-count-suffix="%">95%</span>
+          <p class="proof-strip__label">Minimum calibration score before an annotator touches your data</p>
+        </article>
+        <div class="proof-strip__divider" aria-hidden="true"></div>
+        <article class="proof-strip__item">
+          <span class="proof-strip__number" aria-hidden="true" data-count-target="100" data-count-suffix="%">100%</span>
+          <p class="proof-strip__label">Of flagged items reviewed by our Technical QA Lead</p>
+        </article>
+        <div class="proof-strip__divider" aria-hidden="true"></div>
+        <article class="proof-strip__item">
+          <span class="proof-strip__number" aria-hidden="true">1</span>
+          <p class="proof-strip__label">Accountable point of contact for your project</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ======= SERVICES ======= -->
+    <section class="services section--paper" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <p class="eyebrow eyebrow--dark">What we label</p>
+        <h2 id="services-heading">Built around your data.</h2>
+        <p class="section-intro">From the exact shape of an object to the meaning inside a sentence, every project
+          starts with your taxonomy and output requirements.</p>
+        <div class="services__grid">
+          <article class="card card--light reveal" id="service-vision">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="24" height="24" rx="2" stroke="#FF4C29" stroke-width="1.5" />
+                <rect x="8" y="8" width="12" height="12" rx="1" stroke="#334756" stroke-width="1.5" />
+                <circle cx="14" cy="14" r="2" fill="#FF4C29" />
+              </svg>
+            </div>
+            <h3>Computer vision</h3>
+            <ul class="card__list" role="list">
+              <li>2D bounding boxes</li>
+              <li>Polygon segmentation</li>
+              <li>Keypoint annotation</li>
+              <li>Image classification</li>
+              <li>Video object tracking</li>
+            </ul>
+          </article>
+          <article class="card card--light reveal" id="service-language">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="6" width="24" height="3" rx="1.5" fill="#334756" />
+                <rect x="2" y="12" width="18" height="3" rx="1.5" fill="#334756" />
+                <rect x="2" y="18" width="22" height="3" rx="1.5" fill="#334756" />
+                <rect x="2" y="6" width="8" height="3" rx="1.5" fill="#FF4C29" />
+              </svg>
+            </div>
+            <h3>Language data</h3>
+            <ul class="card__list" role="list">
+              <li>Text classification</li>
+              <li>Sentiment analysis</li>
+              <li>Named entity recognition</li>
+              <li>RLHF preference ranking</li>
+              <li>Data extraction and structuring</li>
+            </ul>
+          </article>
+        </div>
+        <p class="services__platforms">We work in CVAT, Label Studio and Labelbox, or inside your approved platform, and
+          deliver in COCO JSON, YOLO, Pascal VOC or standard JSON.</p>
+      </div>
+    </section>
+
+    <!-- ======= PROBLEM AND ANSWER ======= -->
+    <section class="problem section--white" aria-labelledby="problem-heading">
+      <div class="container">
+        <p class="eyebrow eyebrow--dark">Why Annotori</p>
+        <h2 id="problem-heading">Labeled data without the management overhead.</h2>
+        <div class="problem__grid">
+          <div class="problem__col">
+            <p class="problem__label eyebrow eyebrow--dark">You have</p>
+            <ul class="problem__list" role="list">
+              <li>Raw data and no labeling team.</li>
+              <li>Annotators who need constant supervision.</li>
+              <li>Quality that changes from batch to batch.</li>
+            </ul>
+          </div>
+          <div class="problem__arrow" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 20H32M32 20L22 10M32 20L22 30" stroke="#FF4C29" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="problem__col">
+            <p class="problem__label eyebrow eyebrow--dark">We provide</p>
+            <ul class="problem__list problem__list--answer" role="list">
+              <li>A dedicated team calibrated to your guidelines.</li>
+              <li>One person accountable for quality.</li>
+              <li>A documented review process on every batch.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= HOW IT WORKS ======= -->
+    <section class="process section--paper" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <p class="eyebrow eyebrow--dark">How we work</p>
+        <h2 id="process-heading">A workflow with fewer loose ends.</h2>
+        <ol class="process__steps" role="list">
+          <li class="process__step reveal" id="step-intake">
+            <span class="process__num" aria-hidden="true">01</span>
+            <div class="process__body">
+              <h3>Intake</h3>
+              <p>We capture your data source, taxonomy, output format and known edge cases in writing before any work
+                starts.</p>
+            </div>
+          </li>
+          <li class="process__step reveal" id="step-calibration">
+            <span class="process__num" aria-hidden="true">02</span>
+            <div class="process__body">
+              <h3>Calibration</h3>
+              <p>Every annotator is tested against a gold standard set and must pass a strict threshold before touching
+                your data.</p>
+            </div>
+          </li>
+          <li class="process__step reveal" id="step-annotation">
+            <span class="process__num" aria-hidden="true">03</span>
+            <div class="process__body">
+              <h3>Annotation and review</h3>
+              <p>Work is split into assigned chunks. Each batch goes through self review, sampled review and a full
+                check of flagged items.</p>
+            </div>
+          </li>
+          <li class="process__step reveal" id="step-delivery">
+            <span class="process__num" aria-hidden="true">04</span>
+            <div class="process__body">
+              <h3>Delivery</h3>
+              <p>You receive your export in your required format, validated before handoff, with a short report and a
+                summary of edge cases.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ======= QUALITY ======= -->
+    <section class="quality section--navy" id="quality" aria-labelledby="quality-heading">
+      <div class="container">
+        <p class="eyebrow">Quality</p>
+        <h2 id="quality-heading">Consistency you can build on.</h2>
+        <p class="section-intro">Accuracy comes from a process, not a promise. Every dataset is guided by your taxonomy,
+          reviewed in passes and checked by a Technical QA Lead before delivery.</p>
+        <div class="quality__grid">
+          <article class="card card--dark reveal" id="quality-calibrated">
+            <h3>Calibrated to your rules</h3>
+            <p>Project guidelines and a shared gold standard keep decisions consistent across the team.</p>
+          </article>
+          <article class="card card--dark reveal" id="quality-reviewed">
+            <h3>Reviewed in multiple passes</h3>
+            <p>Annotator self review is followed by lead review and sampled quality checks.</p>
+          </article>
+          <article class="card card--dark reveal" id="quality-flagged">
+            <h3>Flagged, never guessed</h3>
+            <p>Ambiguous items are escalated for clarification instead of being labeled on assumptions.</p>
+          </article>
+        </div>
+        <p class="quality__security">Every team member works under NDA, inside client approved platforms.</p>
+      </div>
+    </section>
+
+    <!-- ======= PILOT ======= -->
+    <section class="pilot section--deep-slate" id="pilot" aria-labelledby="pilot-heading">
+      <div class="container pilot__inner">
+        <div class="pilot__content">
+          <p class="eyebrow">Get started</p>
+          <h2 id="pilot-heading">Start with a paid pilot.</h2>
+          <p>Send a sample of your data and your labeling guidelines. We scope a fixed size pilot batch, quote it within
+            24 hours, and deliver it with a quality report. You see exactly how we work before committing to more
+            volume.</p>
+          <ul class="pilot__points" role="list">
+            <li>Fixed scope and price agreed in writing before we start.</li>
+            <li>Delivered in your export format.</li>
+            <li>Includes a quality report and edge case notes.</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary" id="pilot-cta">Request a pilot quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section class="contact section--paper" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="contact__form-col">
+          <p class="eyebrow eyebrow--dark">Get in touch</p>
+          <h2 id="contact-heading">Tell us about your data.</h2>
+          <form class="form" id="contact-form" action="https://formspree.io/f/xyezaard" method="POST" novalidate>
+            <div class="form__field">
+              <label for="name" class="form__label">Name</label>
+              <input type="text" id="name" name="name" class="form__input" placeholder="Your name" required
+                autocomplete="name" />
+            </div>
+            <div class="form__field">
+              <label for="email" class="form__label">Work email</label>
+              <input type="email" id="email" name="email" class="form__input" placeholder="you@company.com" required
+                autocomplete="email" />
+            </div>
+            <div class="form__field">
+              <label for="annotation-type" class="form__label">Annotation type</label>
+              <select id="annotation-type" name="annotation_type" class="form__select" required>
+                <option value="" disabled selected>Select type</option>
+                <option value="Computer vision">Computer vision</option>
+                <option value="Language data">Language data</option>
+                <option value="Both">Both</option>
+                <option value="Not sure">Not sure</option>
+              </select>
+            </div>
+            <div class="form__field">
+              <label for="volume" class="form__label">Approximate data volume <span
+                  class="form__optional">(optional)</span></label>
+              <input type="text" id="volume" name="volume" class="form__input" placeholder="e.g. 10,000 images"
+                autocomplete="off" />
+            </div>
+            <div class="form__field">
+              <label for="notes" class="form__label">Project notes</label>
+              <textarea id="notes" name="notes" class="form__textarea" rows="4"
+                placeholder="Describe your data, task type, and any specific requirements"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary form__submit" id="form-submit-btn">Send to Annotori
+              Labs</button>
+            <p class="form__reply">We reply within 24 hours.</p>
+            <div class="form__success" id="form-success" hidden aria-live="polite">
+              <p>Your message has been sent. We will reply within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+        <div class="contact__person-col">
+          <div class="person-block">
+            <div class="person-block__avatar">
+              <img src="assets/contactphoto.svg" alt="Abdulhameed Shuaibu, Technical QA Lead" class="person-block__photo" />
+            </div>
+            <div class="person-block__info">
+              <p class="person-block__name">Abdulhameed Shuaibu</p>
+              <p class="person-block__title">Technical QA Lead</p>
+            </div>
+            <blockquote class="person-block__quote">
+              "You will deal with me directly, from first message to delivery."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer section--navy" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" aria-label="Annotori Labs home">
+          <img src="assets/logo_reversed.svg" alt="Annotori Labs" class="footer__logo" width="148" height="28" />
+        </a>
+        <p class="footer__tagline">Managed data annotation for AI teams</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://www.linkedin.com/company/annotorilabs" class="footer__link" target="_blank"
+          rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:annotorilabs@gmail.com" class="footer__link" id="footer-email">annotorilabs@gmail.com</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Annotori Labs</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
